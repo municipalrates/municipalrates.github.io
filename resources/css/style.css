@@ -1,9 +1,18 @@
 body {
     font-family: 'Inconsolata', monospace;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-p .title {
-    font-weight: 500;
+.header {
+    height: 64px;
+   font-size: 12px;
+   text-align: right;
+   padding-top: 18px;
+}
+
+.title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 700;
 }
