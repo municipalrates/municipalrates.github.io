@@ -3,3 +3,7 @@ body {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+p .title {
+    font-weight: 500;
+}
