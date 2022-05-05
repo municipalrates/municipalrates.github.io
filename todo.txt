@@ -1,0 +1,2 @@
+- Add media queries to mobile (and tablet?) to make sure that text doesn't look weird on mobile
+title page looks good at the moment but entries need work - maybe reduce text size? 
