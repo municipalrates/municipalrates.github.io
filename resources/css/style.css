@@ -4,15 +4,64 @@ body {
     margin-right: 150px;
 }
 
+a {
+    color: rgb(0, 0, 78);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(169, 169, 169, 0.495);
+    text-decoration: line-through;
+}
+
+
 .header {
     height: 64px;
    font-size: 12px;
    text-align: right;
    padding-top: 18px;
+   font-weight: 300;
 }
 
 .title {
     margin-top: 16px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.navigationtitle {
+    text-align: right;
+    margin-top: 48px;
     margin-bottom: 16px;
-    font-weight: 700;
+    font-weight: 300;
+    font-style: oblique;
+    font-size: 12px
+
+}
+
+
+.links {
+    text-align: right;
+    font-size: 12px;
+
+}
+
+.subtitle {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-style: oblique;
+    font-size: 12px;
+}
+
+.mainentry {
+    margin-bottom: 48px;
+}
+
+.dateentry {
+    text-align: right;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: 300;
 }
