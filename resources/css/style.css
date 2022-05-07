@@ -1,7 +1,8 @@
+/* html and body tags */
+
 html {
     font-size: 12px;
 }
-
 
 
 body {
@@ -10,9 +11,15 @@ body {
     margin-right: 150px;
 }
 
-a {
+/* hyperlinks */
+
+a:link {
     color: rgb(0, 0, 78);
     text-decoration: none;
+}
+
+a:visited {
+    color: rgba(169, 169, 169, 0.495);
 }
 
 a:hover {
@@ -20,10 +27,8 @@ a:hover {
     text-decoration: line-through;
 }
 
-a:visited {
-    text-decoration: line-through;
-}
 
+/* top page */
 
 .header {
    height: 64px;
@@ -40,6 +45,8 @@ a:visited {
     font-size: 3.5rem;
 }
 
+/* right hand links (misc) */
+
 .navigationtitle {
     text-align: right;
     margin-top: 48px;
@@ -49,11 +56,21 @@ a:visited {
 
 }
 
-
 .links {
     text-align: right;
     font-size: 1rem;
 }
+
+.time-drifter:hover {
+    color: white;
+}
+
+.plane-shifter:hover {
+    color: white;
+}
+
+
+/* left hand links */
 
 .projecttitle {
     margin-top: 48px;
@@ -65,6 +82,9 @@ a:visited {
 .projectlinks {
     font-size: 1rem;
 }
+
+
+/* actual entries and text */
 
 .subtitle {
     margin-top: 16px;
