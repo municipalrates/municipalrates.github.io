@@ -84,6 +84,38 @@ a:hover {
 }
 
 
+
+
+
+
+/* image gallery */
+
+.arcadetitle {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.images img {
+    height: 100%;
+    width: auto;
+}
+
+.imgcontainer {
+    height: 22rem;
+    margin: 2rem;
+}
+
+
 /* actual entries and text */
 
 .subtitle {
