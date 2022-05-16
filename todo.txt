@@ -10,7 +10,7 @@ for mobiles - decrease and decrease - 540px and under
 to implement in the html)
 
 
-- think of a different word for 'Projectiles' 
+
 
 
 
