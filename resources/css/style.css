@@ -110,8 +110,18 @@ a:hover {
     width: auto;
 }
 
-.imgcontainer {
-    height: 23rem;
+.imgcontainerlonglandscape {
+    height: 22rem;
+    margin: 2.5rem;
+}
+
+.imgcontainershortlandscape {
+    height: 26rem;
+    margin: 2.5rem;
+}
+
+.imgcontainerhigher {
+    height: 30rem;
     margin: 2.5rem;
 }
 
