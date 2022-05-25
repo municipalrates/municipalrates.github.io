@@ -69,6 +69,7 @@ a:hover {
 }
 
 
+
 /* left hand links */
 
 .projecttitle {
@@ -103,18 +104,88 @@ a:hover {
 }
 
 .imgcontainerlonglandscape {
-    height: 22rem;
-    margin: 2.5rem;
+    height: 18rem;
+    margin: 1.5rem;
 }
+
+
+
 
 .imgcontainershortlandscape {
-    height: 26rem;
-    margin: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22rem;
+    margin: 1.5rem;
 }
 
+.imgcontainershortlandscape p {
+    font-size: 0.8rem;
+    position: absolute;
+    opacity: 0;
+    transition: 3s;
+}
+
+.imgcontainershortlandscape:hover p {
+    opacity: 1;
+}
+
+.imgcontainershortlandscape p:hover {
+    opacity: 0;
+}
+
+
+
+
 .imgcontainerhigher {
-    height: 30rem;
-    margin: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26rem;
+    margin: 1.5rem;
+}
+
+.imgcontainerhigher p {
+    font-size: 0.8rem;
+    position: absolute;
+    opacity: 0;
+    transition: 3s;
+}
+
+.imgcontainerhigher:hover p {
+    opacity: 1;
+}
+
+.imgcontainerhigher p:hover {
+    opacity: 0;
+}
+
+
+
+
+.imgcontainersmallsquare {
+    height: 20rem;
+    margin: 1.5rem;
+}
+
+
+
+
+#mountainlakepic {
+    transition: 1s;
+}
+
+#mountainlakepic:hover {
+    opacity: 0;
+}
+
+
+#heronpic {
+    transition: 1s;
+}
+
+#heronpic:hover {
+    opacity:0;
 }
 
 
