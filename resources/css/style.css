@@ -32,7 +32,6 @@ a:hover {
 
 .header {
    height: 64px;
-   font-size: 1rem;
    text-align: right;
    padding-top: 18px;
    font-weight: 300;
@@ -58,7 +57,7 @@ a:hover {
 
 .links {
     text-align: right;
-    font-size: 1rem;
+    
 }
 
 .time-drifter:hover {
@@ -78,13 +77,6 @@ a:hover {
     font-weight: 300;
     font-style: oblique;
 }
-
-.projectlinks {
-    font-size: 1rem;
-}
-
-
-
 
 
 
@@ -133,7 +125,6 @@ a:hover {
     margin-bottom: 48px;
     font-weight: 300;
     font-style: oblique;
-    font-size: 1rem;
 }
 
 .mainentry {
