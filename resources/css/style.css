@@ -33,6 +33,7 @@ a:hover {
 .header {
    height: 64px;
    text-align: right;
+   font-size: 0.8rem;
    padding-top: 18px;
    font-weight: 300;
 }
@@ -43,6 +44,7 @@ a:hover {
     font-weight: 300;
     font-size: 3.5rem;
 }
+
 
 /* right hand links (misc) */
 
@@ -103,10 +105,32 @@ a:hover {
     width: auto;
 }
 
+
+
+
 .imgcontainerlonglandscape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 18rem;
     margin: 1.5rem;
 }
+
+.imgcontainerlonglandscape p {
+    font-size: 0.8rem;
+    position: absolute;
+    opacity: 0;
+    transition: 3s;
+}
+
+.imgcontainerlonglandscape:hover p {
+    opacity: 1;
+}
+
+.imgcontainerlonglandscape p:hover {
+    opacity: 0;
+}
+
 
 
 
@@ -164,12 +188,32 @@ a:hover {
 
 
 .imgcontainersmallsquare {
-    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 22rem;
     margin: 1.5rem;
 }
 
+.imgcontainersmallsquare p {
+    font-size: 0.8rem;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: 3s;
+    width: 18rem;
+}
+
+.imgcontainersmallsquare:hover p {
+    opacity: 1;
+}
+
+.imgcontainersmallsquare p:hover {
+    opacity: 0;
+}
 
 
+/* individual pic IDs for transitions */
 
 #mountainlakepic {
     transition: 1s;
@@ -187,6 +231,73 @@ a:hover {
 #heronpic:hover {
     opacity:0;
 }
+
+#mexicandogpic {
+    transition: 1s;
+}
+
+#mexicandogpic:hover {
+    opacity: 0;
+}
+
+#treeeditpic {
+    transition: 1s;
+}
+
+#treeeditpic:hover {
+    opacity: 0;
+}
+
+#sleepingcatpic {
+    transition: 1s;
+}
+
+#sleepingcatpic:hover {
+    opacity: 0;
+}
+
+#alpspic {
+    transition: 1s;
+}
+
+#alpspic:hover{
+    opacity: 0;
+} 
+
+#mineralpatternpic{
+    transition: 1s;
+}
+
+#mineralpatternpic:hover{
+    opacity: 0;
+} 
+
+#sicilypic{
+    transition: 1s;
+}
+
+#sicilypic:hover{
+    opacity: 0;
+} 
+
+#yuvshorepic{
+    transition: 1s;
+}
+
+#yuvshorepic:hover{
+    opacity: 0;
+} 
+
+#widetreepic{
+    transition: 1s;
+}
+
+#widetreepic:hover{
+    opacity: 0;
+} 
+
+
+
 
 
 /* actual entries and text */
