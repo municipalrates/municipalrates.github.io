@@ -107,6 +107,30 @@ a:hover {
 
 
 
+.imgcontainerportrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 32rem;
+    margin: 1.5rem;
+}
+
+.imgcontainerportrait p {
+    font-size: 0.8rem;
+    position: absolute;
+    opacity: 0;
+    transition: 3s;
+}
+
+.imgcontainerportrait:hover p {
+    opacity: 1;
+}
+
+.imgcontainerportrait p:hover {
+    opacity: 0;
+}
+
+
 
 .imgcontainerlonglandscape {
     display: flex;
@@ -165,7 +189,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 26rem;
+    height: 28rem;
     margin: 1.5rem;
 }
 
@@ -296,6 +320,13 @@ a:hover {
     opacity: 0;
 } 
 
+#treewalkpic{
+    transition: 1s;
+}
+
+#treewalkpic:hover{
+    opacity: 0;
+} 
 
 
 
