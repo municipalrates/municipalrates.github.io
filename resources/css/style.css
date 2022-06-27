@@ -143,6 +143,7 @@ a:hover {
 .imgcontainerlonglandscape p {
     font-size: 0.8rem;
     position: absolute;
+    text-align: center;
     opacity: 0;
     transition: 3s;
 }
@@ -328,7 +329,20 @@ a:hover {
     opacity: 0;
 } 
 
+#heronalonepic{
+    transition: 1s;
+}
 
+#heronalonepic:hover{
+    opacity: 0;
+} 
+#fieldpic{
+    transition: 1s;
+}
+
+#fieldpic:hover{
+    opacity: 0;
+} 
 
 
 /* actual entries and text */
