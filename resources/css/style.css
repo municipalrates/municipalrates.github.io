@@ -453,6 +453,7 @@ a:hover {
 .dateentry {
     text-align: right;
     font-style: oblique;
+    font-size: 1rem;
     font-weight: 300;
     margin-bottom: 48px;
 }
