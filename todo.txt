@@ -6,6 +6,9 @@ for big screens - increase text size and margins - 1365px and more
 for mobiles - decrease and decrease - 540px and under
 
 
+add entry for flightdecks using image (already included in opticverve image folder)
+
+
 - work out how to make new text appear next to project links when hovered over using spans have already started
 to implement in the html)
 
