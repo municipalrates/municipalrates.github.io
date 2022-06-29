@@ -118,6 +118,7 @@ a:hover {
 .imgcontainerportrait p {
     font-size: 0.8rem;
     position: absolute;
+    text-align: center;
     opacity: 0;
     transition: 3s;
 }
@@ -336,6 +337,8 @@ a:hover {
 #heronalonepic:hover{
     opacity: 0;
 } 
+
+
 #fieldpic{
     transition: 1s;
 }
@@ -343,6 +346,51 @@ a:hover {
 #fieldpic:hover{
     opacity: 0;
 } 
+
+
+#pondpic{
+    transition: 1s;
+}
+
+#pondpic:hover{
+    opacity: 0;
+} 
+
+
+#closeupplantspic{
+    transition: 1s;
+}
+
+#closeupplantspic:hover{
+    opacity: 0;
+} 
+
+
+#stadiumpic {
+    transition: 1s;
+}
+
+#stadiumpic:hover {
+    opacity: 0;
+}
+
+
+#moonpic {
+    transition: 1s;
+}
+
+#moonpic:hover {
+    opacity: 0;
+}
+
+
+#redrockpic {
+    transition: 1s;
+}
+
+#redrockpic:hover {
+    opacity: 0;
+}
 
 
 /* actual entries and text */
