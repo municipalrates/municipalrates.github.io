@@ -42,8 +42,8 @@ body {
     }
 
     body {
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 65px;
+        margin-right: 65px;
     }
 
 }
@@ -452,7 +452,6 @@ a:hover {
 
 .dateentry {
     text-align: right;
-    font-size: 12px;
     font-style: oblique;
     font-weight: 300;
     margin-bottom: 48px;
