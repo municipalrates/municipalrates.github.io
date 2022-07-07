@@ -430,6 +430,13 @@ a:hover {
     opacity: 0;
 }
 
+#guineapigpic {
+    transition: 1s;
+}
+
+#guineapigpic:hover {
+    opacity: 0;
+}
 
 /* actual entries and text */
 
