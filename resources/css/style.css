@@ -438,6 +438,54 @@ a:hover {
     opacity: 0;
 }
 
+#woodwalkpic {
+    transition: 1s;
+}
+
+#woodwalkpic:hover {
+    opacity: 0;
+}
+
+#stormcloudpic {
+    transition: 1s;
+}
+
+#stormcloudpic:hover {
+    opacity: 0;
+}
+
+#birthdaypic {
+    transition: 1s;
+}
+
+#birthdaypic:hover {
+    opacity: 0;
+}
+
+#sunoverhorsespic {
+    transition: 1s;
+}
+
+#sunoverhorsespic:hover {
+    opacity: 0;
+}
+
+#skyframepic {
+    transition: 1s;
+}
+
+#skyframepic:hover {
+    opacity: 0;
+}
+
+#treestandpic {
+    transition: 1s;
+}
+
+#treestandpic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
