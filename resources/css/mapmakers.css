@@ -1,0 +1,404 @@
+/* html and body tags */
+
+html {
+    font-size: 14px;
+}
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+@media only screen and (min-width: 1365px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+}
+
+@media only screen and (max-width:700px)   {
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+}
+
+
+@media only screen and (max-width:540px)  {
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+}
+
+
+/* hyperlinks */
+
+a:link {
+    color: rgb(0, 0, 78);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(169, 169, 169, 0.495);
+}
+
+a:hover {
+    color: rgba(169, 169, 169, 0.495);
+    text-decoration: line-through;
+}
+
+
+/* top page */
+
+.header {
+   height: 64px;
+   text-align: right;
+   font-size: 0.8rem;
+   padding-top: 18px;
+   font-weight: 300;
+}
+
+.title {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+
+/* main poem */
+
+.mainpoem {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#compass {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+#compassicon {
+    height: 2rem;
+    width: 2rem;
+}
+
+#compassicon img {
+    width: 100%;
+    height: auto;
+}
+
+#line1 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#compass:hover ~ #line1 {
+    opacity: 1;
+}
+
+#line2 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line1:hover ~ #line2 {
+    opacity: 1;
+}
+
+#line3 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line2:hover ~ #line3 {
+    opacity: 1;
+}
+
+#line4 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line3:hover ~ #line4 {
+    opacity: 1;
+}
+
+#line5 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line4:hover ~ #line5 {
+    opacity: 1;
+}
+
+#line6 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line5:hover ~ #line6 {
+    opacity: 1;
+}
+
+#line7 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line6:hover ~ #line7 {
+    opacity: 1;
+}
+
+#line8 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line7:hover ~ #line8 {
+    opacity: 1;
+}
+
+#line9 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line8:hover ~ #line9 {
+    opacity: 1;
+}
+
+#line10 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line9:hover ~ #line10 {
+    opacity: 1;
+}
+
+#line11 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line10:hover ~ #line11 {
+    opacity: 1;
+}
+
+#line12 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line11:hover ~ #line12 {
+    opacity: 1;
+}
+
+#line13 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line12:hover ~ #line13 {
+    opacity: 1;
+}
+
+#line14 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line13:hover ~ #line14 {
+    opacity: 1;
+}
+
+#line15 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line14:hover ~ #line15 {
+    opacity: 1;
+}
+
+#line16 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line15:hover ~ #line16 {
+    opacity: 1;
+}
+
+#line17 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line16:hover ~ #line17 {
+    opacity: 1;
+}
+
+#line18 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line17:hover ~ #line18 {
+    opacity: 1;
+}
+
+#line19 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line18:hover ~ #line19 {
+    opacity: 1;
+}
+
+#line20 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line19:hover ~ #line20 {
+    opacity: 1;
+}
+
+#line21 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line20:hover ~ #line21 {
+    opacity: 1;
+}
+
+#line22 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line21:hover ~ #line22 {
+    opacity: 1;
+}
+
+#line23 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line22:hover ~ #line23 {
+    opacity: 1;
+}
+
+
+#line24 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line23:hover ~ #line24 {
+    opacity: 1;
+}
+
+#line25 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line24:hover ~ #line25 {
+    opacity: 1;
+}
+
+
+#compass2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+#compassicon2 {
+    height: 2rem;
+    width: 2rem;
+}
+
+#compassicon2 img {
+    width: 100%;
+    height: auto;
+}
+
+/* left hand links */
+
+.projecttitle {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-style: oblique;
+}
+

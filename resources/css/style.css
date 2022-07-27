@@ -119,7 +119,13 @@ a:hover {
     font-style: oblique;
 }
 
+#cartographerinfo {
+    opacity: 0;
+}
 
+#cartographertitle:hover ~ #cartographerinfo {
+    opacity: 1;
+}
 
 /* image gallery */
 
