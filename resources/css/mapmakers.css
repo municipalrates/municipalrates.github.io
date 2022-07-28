@@ -7,8 +7,8 @@ html {
 
 body {
     font-family: 'Inconsolata', monospace;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 p {
@@ -25,8 +25,8 @@ p {
     }
 
     body {
-        margin-left: 190px;
-        margin-right: 190px;
+        margin-left: 3px;
+        margin-right: 3px;
     }
 }
 
@@ -36,8 +36,8 @@ p {
     }
 
     body {
-        margin-left: 110px;
-        margin-right: 110px;
+        margin-left: 1px;
+        margin-right: 1px;
     }
 }
 
@@ -49,8 +49,8 @@ p {
     }
 
     body {
-        margin-left: 65px;
-        margin-right: 65px;
+        margin-left: 1px;
+        margin-right: 1px;
     }
 
 }
@@ -94,8 +94,6 @@ a:hover {
 /* main poem */
 
 .mainpoem {
-    margin-left: 80px;
-    margin-right: 80px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -372,6 +370,389 @@ a:hover {
 }
 
 #line24:hover ~ #line25 {
+    opacity: 1;
+}
+
+#line26 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line25:hover ~ #line26 {
+    opacity: 1;
+}
+
+
+#line27 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line26:hover ~ #line27 {
+    opacity: 1;
+}
+
+
+#line28 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line27:hover ~ #line28 {
+    opacity: 1;
+}
+
+#line29 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line28:hover ~ #line29 {
+    opacity: 1;
+}
+
+#line30 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line29:hover ~ #line30 {
+    opacity: 1;
+}
+
+#line31 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line30:hover ~ #line31 {
+    opacity: 1;
+}
+
+#line32 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line31:hover ~ #line32 {
+    opacity: 1;
+}
+
+#line33 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line32:hover ~ #line33 {
+    opacity: 1;
+}
+
+#line34 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line33:hover ~ #line34 {
+    opacity: 1;
+}
+
+
+#line35 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line34:hover ~ #line35 {
+    opacity: 1;
+}
+
+
+#line36 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line35:hover ~ #line36 {
+    opacity: 1;
+}
+
+
+#line37 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+
+}
+
+#line36:hover ~ #line37 {
+    opacity: 1;
+}
+
+
+#narrative {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+#narrativeicon {
+    height: 4rem;
+    width: 4rem;
+}
+
+#narrativeicon img {
+    width: 100%;
+    height: auto;
+}
+
+
+#line38 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#narrative:hover ~ #line38 {
+    opacity: 1;
+}
+
+#line39 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line38:hover ~ #line39 {
+    opacity: 1;
+}
+
+#line40 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line39:hover ~ #line40 {
+    opacity: 1;
+}
+
+#line41 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line40:hover ~ #line41 {
+    opacity: 1;
+}
+
+#line42 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line41:hover ~ #line42 {
+    opacity: 1;
+}
+
+#line43 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line42:hover ~ #line43 {
+    opacity: 1;
+}
+
+#line44 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line43:hover ~ #line44 {
+    opacity: 1;
+}
+
+#line45 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line44:hover ~ #line45 {
+    opacity: 1;
+}
+
+#line46 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line45:hover ~ #line46 {
+    opacity: 1;
+}
+
+#line47 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line46:hover ~ #line47 {
+    opacity: 1;
+}
+
+#line48 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line47:hover ~ #line48 {
+    opacity: 1;
+}
+
+#line49 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line48:hover ~ #line49 {
+    opacity: 1;
+}
+
+#line50 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line49:hover ~ #line50 {
+    opacity: 1;
+}
+
+#line51 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line50:hover ~ #line51 {
+    opacity: 1;
+}
+
+#line52 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line51:hover ~ #line52 {
+    opacity: 1;
+}
+
+#line53 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line52:hover ~ #line53 {
+    opacity: 1;
+}
+
+#line54 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+#line53:hover ~ #line54 {
+    opacity: 1;
+}
+
+#line55 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line54:hover ~ #line55 {
+    opacity: 1;
+}
+
+#line56 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line55:hover ~ #line56 {
+    opacity: 1;
+}
+
+#line57 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line56:hover ~ #line57 {
+    opacity: 1;
+}
+
+#line58 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: right;
+}
+
+#line57:hover ~ #line58{
+    opacity: 1;
+}
+
+#line59 {
+    opacity: 0;
+    transition: 1s;
+    transition-timing-function: linear;
+    text-align: center;
+}
+
+#line58:hover ~ #line59{
     opacity: 1;
 }
 
