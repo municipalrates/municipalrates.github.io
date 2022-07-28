@@ -492,6 +492,14 @@ a:hover {
     opacity: 0;
 }
 
+#petshoppic {
+    transition: 1s;
+}
+
+#petshoppic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
