@@ -127,6 +127,14 @@ a:hover {
     opacity: 1;
 }
 
+#achievementsinfo {
+    opacity: 0;
+}
+
+#achievementstitle:hover ~ #achievementsinfo {
+    opacity: 1;
+}
+
 /* image gallery */
 
 .arcadetitle {
@@ -497,6 +505,14 @@ a:hover {
 }
 
 #petshoppic:hover {
+    opacity: 0;
+}
+
+#cathidepic {
+    transition: 1s;
+}
+
+#cathidepic:hover {
     opacity: 0;
 }
 

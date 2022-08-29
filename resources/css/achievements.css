@@ -1,0 +1,108 @@
+/* html and body tags */
+
+html {
+    font-size: 14px;
+}
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+@media only screen and (min-width: 1365px) {
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width:700px)   {
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+
+@media only screen and (max-width:540px)  {
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+
+/* hyperlinks */
+
+a:link {
+    color: rgb(0, 0, 78);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(169, 169, 169, 0.495);
+}
+
+a:hover {
+    color: rgba(169, 169, 169, 0.495);
+    text-decoration: line-through;
+}
+
+
+/* top page */
+
+.header {
+   height: 64px;
+   text-align: right;
+   font-size: 0.8rem;
+   padding-top: 18px;
+   font-weight: 300;
+}
+
+.title {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+
+
+/* using flexbox to give two parts */
+
+.achievementsmainpoem {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.interviewer {
+    width: 50%;
+    padding-right: 5rem;
+}
+
+.responder {
+    width: 50%;
+    text-align: right;
+    padding-left: 5rem;
+}
+
