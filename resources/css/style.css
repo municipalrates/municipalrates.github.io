@@ -516,6 +516,13 @@ a:hover {
     opacity: 0;
 }
 
+#medicipic {
+    transition: 1s;
+}
+
+#medicipic:hover {
+    opacity: 0;
+}
 /* actual entries and text */
 
 .subtitle {
