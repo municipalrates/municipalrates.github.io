@@ -523,6 +523,32 @@ a:hover {
 #medicipic:hover {
     opacity: 0;
 }
+
+#ancestorspic:hover {
+    transition: 1s;
+}
+
+#ancestorspic:hover {
+    opacity: 0;
+}
+
+#churchpic {
+    transition: 1s;
+}
+
+#churchpic:hover {
+    opacity: 0;
+}
+
+#henrypic{
+    transition: 1s;
+}
+
+#henrypic:hover {
+    opacity: 0;
+}
+
+
 /* actual entries and text */
 
 .subtitle {
