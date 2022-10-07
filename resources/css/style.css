@@ -11,6 +11,11 @@ body {
     margin-right: 150px;
 }
 
+p {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+}
+
 
 @media only screen and (min-width: 1365px) {
     html {
@@ -545,6 +550,14 @@ a:hover {
 }
 
 #henrypic:hover {
+    opacity: 0;
+}
+
+#boatyardpic{
+    transition: 1s;
+}
+
+#boatyardpic:hover {
     opacity: 0;
 }
 
