@@ -140,6 +140,14 @@ a:hover {
     opacity: 1;
 }
 
+#ectobruiseinfo {
+    opacity: 0;
+}
+
+#ectobruisetitle:hover ~ #ectobruiseinfo {
+    opacity: 1;
+}
+
 /* image gallery */
 
 .arcadetitle {
