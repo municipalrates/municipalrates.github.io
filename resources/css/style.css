@@ -569,7 +569,69 @@ a:hover {
     opacity: 0;
 }
 
+#barkinparkpic{
+    transition: 1s;
+}
 
+#barkinparkpic:hover {
+    opacity: 0;
+}
+
+#aucklandbridgepic{
+    transition: 1s;
+}
+
+#aucklandbridgepic:hover {
+    opacity: 0;
+}
+
+#barkonbaypic{
+    transition: 1s;
+}
+
+#barkonbaypic:hover {
+    opacity: 0;
+}
+
+#barkonbarkpic{
+    transition: 1s;
+}
+
+#barkonbarkpic:hover {
+    opacity: 0;
+}
+
+#fernspic{
+    transition: 1s;
+}
+
+#fernspic:hover {
+    opacity: 0;
+}
+
+#mangrovepic{
+    transition: 1s;
+}
+
+#mangrovepic:hover {
+    opacity: 0;
+}
+
+#rootdroppic{
+    transition: 1s;
+}
+
+#rootdroppic:hover {
+    opacity: 0;
+}
+
+#webpic{
+    transition: 1s;
+}
+
+#webpic:hover {
+    opacity: 0;
+}
 /* actual entries and text */
 
 .subtitle {
