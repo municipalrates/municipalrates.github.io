@@ -632,6 +632,18 @@ a:hover {
 #webpic:hover {
     opacity: 0;
 }
+
+#kiwipic{
+    transition: 1s;
+}
+
+#kiwipic:hover {
+    opacity: 0;
+}
+
+
+
+
 /* actual entries and text */
 
 .subtitle {
