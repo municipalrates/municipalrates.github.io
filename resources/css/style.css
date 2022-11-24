@@ -148,6 +148,14 @@ a:hover {
     opacity: 1;
 }
 
+#magicandmachineinfo {
+    opacity: 0;
+}
+
+#magicandmachinetitle:hover ~ #magicandmachineinfo {
+    opacity: 1;
+}
+
 /* image gallery */
 
 .arcadetitle {
