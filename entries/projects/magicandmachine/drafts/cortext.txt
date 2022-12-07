@@ -1,7 +1,0 @@
-+
-
-'This techno-epistemic challenge corresponds to a methodological turn for human and social scientists. It requires the use of methods and tools developed in different fields of science and technology to understand the mechanisms involved in data infrastructures and knowledge circulation. 
-
-The requirement to ground a nexus of disciplines in new methods leads to articulate and assemble many methods and technologies: automatic language processing, information retrieval, knowledge engineering, linguistic statistics, metrics and algorithm implementation, co-word analysis, social networks analysis, word embedding, geocoding, webometrics and knowledge visualization. In addition, it also requires to sail computationally the extraction, storage and networking of data with tools for users.' 
-
-- CorText Platform (spelled 'Plateform' on their website)
