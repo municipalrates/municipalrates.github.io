@@ -649,8 +649,21 @@ a:hover {
     opacity: 0;
 }
 
+#tuipic{
+    transition: 1s;
+}
 
+#tuipic:hover {
+    opacity: 0;
+}
 
+#palmpic{
+    transition: 1s;
+}
+
+#palmpic:hover {
+    opacity: 0;
+}
 
 /* actual entries and text */
 
