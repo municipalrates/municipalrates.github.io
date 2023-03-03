@@ -184,7 +184,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;    
-    height: 32rem;
+    height: 30rem;
     margin: 1.5rem;
 }
 
@@ -210,7 +210,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 18rem;
+    height: 16rem;
     margin: 1.5rem;
 }
 
@@ -238,7 +238,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 22rem;
+    height: 20rem;
     margin: 1.5rem;
 }
 
@@ -264,7 +264,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 28rem;
+    height: 26rem;
     margin: 1.5rem;
 }
 
@@ -290,7 +290,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 22rem;
+    height: 20rem;
     margin: 1.5rem;
 }
 
@@ -673,6 +673,13 @@ a:hover {
     opacity: 0;
 }
 
+#pauapic{
+    transition: 1s;
+}
+
+#pauapic:hover {
+    opacity: 0;
+}
 /* actual entries and text */
 
 .subtitle {
