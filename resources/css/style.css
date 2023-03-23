@@ -680,6 +680,30 @@ a:hover {
 #pauapic:hover {
     opacity: 0;
 }
+
+#duckpic{
+    transition: 1s;
+}
+
+#duckpic:hover {
+    opacity: 0;
+}
+
+#mothwallpic{
+    transition: 1s;
+}
+
+#mothwallpic:hover {
+    opacity: 0;
+}
+
+#waterfallpic{
+    transition: 1s;
+}
+
+#waterfallpic:hover {
+    opacity: 0;
+}
 /* actual entries and text */
 
 .subtitle {
