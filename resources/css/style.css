@@ -704,6 +704,30 @@ a:hover {
 #waterfallpic:hover {
     opacity: 0;
 }
+
+#frostpic{
+    transition: 1s;
+}
+
+#frostpic:hover {
+    opacity: 0;
+}
+
+#ivypic{
+    transition: 1s;
+}
+
+#ivypic:hover {
+    opacity: 0;
+}
+
+#routeburnpic{
+    transition: 1s;
+}
+
+#routeburnpic:hover {
+    opacity: 0;
+}
 /* actual entries and text */
 
 .subtitle {
