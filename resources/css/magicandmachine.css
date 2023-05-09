@@ -112,6 +112,14 @@ a:hover {
     line-height: 2rem;
 }
 
+.mainlinksectioncentred {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    word-wrap:break-word;
+    line-height: 2rem;
+    text-align: center;
+}
+
 .maintextsection {
     margin-top: 64px;
     margin-bottom: 64px;
