@@ -156,6 +156,14 @@ a:hover {
     opacity: 1;
 }
 
+#collaberrationsinfo {
+    opacity: 0;
+}
+
+#collaberrationstitle:hover ~ #collaberrationsinfo {
+    opacity: 1;
+}
+
 /* image gallery */
 
 .arcadetitle {
