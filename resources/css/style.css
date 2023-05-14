@@ -737,6 +737,14 @@ a:hover {
 #christchurchbeachpic:hover {
     opacity: 0;
 }
+
+#loomerspic{
+    transition: 1s;
+}
+
+#loomerspic:hover {
+    opacity: 0;
+}
 /* actual entries and text */
 
 .subtitle {
