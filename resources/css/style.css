@@ -745,6 +745,32 @@ a:hover {
 #loomerspic:hover {
     opacity: 0;
 }
+
+#treebleachpic{
+    transition: 1s;
+}
+
+#treebleachpic:hover {
+    opacity: 0;
+}
+
+#mulepic{
+    transition: 1s;
+}
+
+#mulepic:hover {
+    opacity: 0;
+}
+
+
+#landgrabpic{
+    transition: 1s;
+}
+
+#landgrabpic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
