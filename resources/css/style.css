@@ -771,6 +771,22 @@ a:hover {
     opacity: 0;
 }
 
+#epitheliumpic{
+    transition: 1s;
+}
+
+#epitheliumpic:hover {
+    opacity: 0;
+}
+
+#wallmothpic{
+    transition: 1s;
+}
+
+#wallmothpic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
