@@ -787,6 +787,14 @@ a:hover {
     opacity: 0;
 }
 
+#lowyawningpic{
+    transition: 1s;
+}
+
+#lowyawningpic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
