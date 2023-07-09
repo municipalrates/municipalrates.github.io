@@ -819,6 +819,14 @@ a:hover {
     opacity: 0;
 }
 
+#witchspirepic{
+    transition: 1s;
+}
+
+#witchspirepic:hover {
+    opacity: 0;
+}
+
 
 
 /* actual entries and text */
