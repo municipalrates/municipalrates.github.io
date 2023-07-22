@@ -827,6 +827,22 @@ a:hover {
     opacity: 0;
 }
 
+#idlewildpic{
+    transition: 1s;
+}
+
+#idlewildpic:hover {
+    opacity: 0;
+}
+
+#bumblecrampic{
+    transition: 1s;
+}
+
+#bumblecrampic:hover {
+    opacity: 0;
+}
+
 
 
 /* actual entries and text */
