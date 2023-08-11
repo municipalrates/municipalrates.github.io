@@ -843,6 +843,30 @@ a:hover {
     opacity: 0;
 }
 
+#wetleafpic{
+    transition: 1s;
+}
+
+#wetleafpic:hover {
+    opacity: 0;
+}
+
+#aggiepic{
+    transition: 1s;
+}
+
+#aggiepic:hover {
+    opacity: 0;
+}
+
+#bayspic{
+    transition: 1s;
+}
+
+#bayspic:hover {
+    opacity: 0;
+}
+
 
 
 /* actual entries and text */
