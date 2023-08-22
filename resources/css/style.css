@@ -867,6 +867,21 @@ a:hover {
     opacity: 0;
 }
 
+#frogpic{
+    transition: 1s;
+}
+
+#frogpic:hover {
+    opacity: 0;
+}
+
+#beetlepic{
+    transition: 1s;
+}
+
+#beetlepic:hover {
+    opacity: 0;
+}
 
 
 /* actual entries and text */
