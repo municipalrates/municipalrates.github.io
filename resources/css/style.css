@@ -156,6 +156,14 @@ a:hover {
     opacity: 1;
 }
 
+#thearcadeinfo {
+    opacity: 0;
+}
+
+#thearcadetitle:hover ~ #thearcadeinfo {
+    opacity: 1;
+}
+
 
 /* image gallery */
 
@@ -880,6 +888,38 @@ a:hover {
 }
 
 #beetlepic:hover {
+    opacity: 0;
+}
+
+#autumngympic{
+    transition: 1s;
+}
+
+#autumngympic:hover {
+    opacity: 0;
+}
+
+#howfallclimbspic{
+    transition: 1s;
+}
+
+#howfallclimbspic:hover {
+    opacity: 0;
+}
+
+#howcoloursworkpic{
+    transition: 1s;
+}
+
+#howcoloursworkpic:hover {
+    opacity: 0;
+}
+
+#horsebonespic{
+    transition: 1s;
+}
+
+#horsebonespic:hover {
     opacity: 0;
 }
 
