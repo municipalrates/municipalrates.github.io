@@ -156,6 +156,14 @@ a:hover {
     opacity: 1;
 }
 
+#magicandmachinetxtinfo {
+    opacity: 0;
+}
+
+#magicandmachinetxttitle:hover ~ #magicandmachinetxtinfo {
+    opacity: 1;
+}
+
 #thearcadeinfo {
     opacity: 0;
 }
