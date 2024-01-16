@@ -931,6 +931,14 @@ a:hover {
     opacity: 0;
 }
 
+#dovedivepic{
+    transition: 1s;
+}
+
+#dovedivepic:hover {
+    opacity: 0;
+}
+
 
 /* actual entries and text */
 
