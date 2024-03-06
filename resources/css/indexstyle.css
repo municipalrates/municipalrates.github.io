@@ -955,6 +955,22 @@ a:hover {
     opacity: 0;
 }
 
+#hawkpic{
+    transition: 1s;
+}
+
+#hawkpic:hover {
+    opacity: 0;
+}
+
+#frontrangepic{
+    transition: 1s;
+}
+
+#frontrangepic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
