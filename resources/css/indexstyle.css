@@ -971,6 +971,22 @@ a:hover {
     opacity: 0;
 }
 
+#spearspic{
+    transition: 1s;
+}
+
+#spearspic:hover {
+    opacity: 0;
+}
+
+#catspic{
+    transition: 1s;
+}
+
+#catspic:hover {
+    opacity: 0;
+}
+
 /* actual entries and text */
 
 .subtitle {
