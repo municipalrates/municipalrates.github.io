@@ -979,6 +979,22 @@ a:hover {
     opacity: 0;
 }
 
+#fieldtrappic{
+    transition: 1s;
+}
+
+#fieldtrappic:hover {
+    opacity: 0;
+}
+
+#masquepic{
+    transition: 1s;
+}
+
+#masquepic:hover {
+    opacity: 0;
+}
+
 
 /* actual entries and text */
 
