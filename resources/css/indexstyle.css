@@ -188,6 +188,7 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
 }
 
 .images img {
@@ -992,6 +993,14 @@ a:hover {
 }
 
 #masquepic:hover {
+    opacity: 0;
+}
+
+#traintrackspic{
+    transition: 1s;
+}
+
+#traintrackspic:hover {
     opacity: 0;
 }
 
