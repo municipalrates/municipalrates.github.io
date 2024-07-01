@@ -926,3 +926,12 @@ a:hover {
     opacity: 0;
 }
 
+#refusepic{
+    transition: 1s;
+}
+
+#refusepic:hover {
+    opacity: 0;
+}
+
+
