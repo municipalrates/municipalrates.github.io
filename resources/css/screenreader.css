@@ -934,4 +934,19 @@ a:hover {
     opacity: 0;
 }
 
+#pinktendrilspic{
+    transition: 1s;
+}
+
+#pinktendrilspic:hover {
+    opacity: 0;
+}
+
+#lizardfeetpic{
+    transition: 1s;
+}
+
+#lizardfeetpic:hover {
+    opacity: 0;
+}
 
