@@ -950,3 +950,11 @@ a:hover {
     opacity: 0;
 }
 
+#dreampatchpic{
+    transition: 1s;
+}
+
+#dreampatchpic:hover {
+    opacity: 0;
+}
+
