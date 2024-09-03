@@ -958,3 +958,10 @@ a:hover {
     opacity: 0;
 }
 
+#corntrumpetspic{
+    transition: 1s;
+}
+
+#corntrumpetspic:hover {
+    opacity: 0;
+}
