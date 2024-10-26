@@ -965,3 +965,30 @@ a:hover {
 #corntrumpetspic:hover {
     opacity: 0;
 }
+
+#kilnbluepic{
+    transition: 1s;
+}
+
+#kilnbluepic:hover {
+    opacity: 0;
+}
+
+#fireblanketpic{
+    transition: 1s;
+}
+
+#fireblanketpic:hover {
+    opacity: 0;
+}
+
+#gridlamppic{
+    transition: 1s;
+}
+
+#gridlamppic:hover {
+    opacity: 0;
+}
+
+
+
