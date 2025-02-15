@@ -990,5 +990,20 @@ a:hover {
     opacity: 0;
 }
 
+#fernlightpic{
+    transition: 1s;
+}
+
+#fernlightpic:hover {
+    opacity: 0;
+}
+
+#mushroomspic{
+    transition: 1s;
+}
+
+#mushroomspic:hover {
+    opacity: 0;
+}
 
 
