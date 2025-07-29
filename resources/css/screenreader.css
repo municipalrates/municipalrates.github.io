@@ -1030,3 +1030,19 @@ a:hover {
     opacity: 0;
 }
 
+#weedspic{
+    transition: 1s;
+}
+
+#weedspic:hover {
+    opacity: 0;
+}
+
+
+#avalanchepeakpic{
+    transition: 1s;
+}
+
+#avalanchepeakpic:hover {
+    opacity: 0;
+}
