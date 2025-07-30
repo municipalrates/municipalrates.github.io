@@ -1038,6 +1038,29 @@ a:hover {
     opacity: 0;
 }
 
+#dirtandshimmerpic{
+    transition: 1s;
+}
+
+#dirtandshimmerpic:hover {
+    opacity: 0;
+}
+
+#godletofthewoodpic{
+    transition: 1s;
+}
+
+#godletofthewoodpic:hover {
+    opacity: 0;
+}
+
+#tortoisepic{
+    transition: 1s;
+}
+
+#tortoisepic:hover {
+    opacity: 0;
+}
 
 #avalanchepeakpic{
     transition: 1s;
