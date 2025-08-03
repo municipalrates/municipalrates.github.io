@@ -1022,19 +1022,19 @@ a:hover {
     opacity: 0;
 }
 
-#snowhookpic{
-    transition: 1s;
-}
-
-#snowhookpic:hover {
-    opacity: 0;
-}
-
 #weedspic{
     transition: 1s;
 }
 
 #weedspic:hover {
+    opacity: 0;
+}
+
+#snowhookpic{
+    transition: 1s;
+}
+
+#snowhookpic:hover {
     opacity: 0;
 }
 
@@ -1067,5 +1067,53 @@ a:hover {
 }
 
 #avalanchepeakpic:hover {
+    opacity: 0;
+}
+
+#mirroredthingspic{
+    transition: 1s;
+}
+
+#mirroredthingspic:hover {
+    opacity: 0;
+}
+
+#moonscapepic{
+    transition: 1s;
+}
+
+#moonscapepic:hover {
+    opacity: 0;
+}
+
+#amphitheatrepic{
+    transition: 1s;
+}
+
+#amphitheatrepic:hover {
+    opacity: 0;
+}
+
+#screepic {
+    transition: 1s;
+}
+
+#screepic:hover {
+    opacity: 0;
+}
+
+#greenchurchpic {
+    transition: 1s;
+}
+
+#greenchurchpic:hover {
+    opacity: 0;
+}
+
+#reedspic {
+    transition: 1s;
+}
+
+#reedspic:hover {
     opacity: 0;
 }
