@@ -1117,3 +1117,19 @@ a:hover {
 #reedspic:hover {
     opacity: 0;
 }
+
+#ridgewalkpic {
+    transition: 1s;
+}
+
+#ridgewalkpic:hover {
+    opacity: 0;
+}
+
+#greenamphipic {
+    transition: 1s;
+}
+
+#greenamphipic:hover {
+    opacity: 0;
+}
