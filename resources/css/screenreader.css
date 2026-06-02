@@ -1133,3 +1133,11 @@ a:hover {
 #greenamphipic:hover {
     opacity: 0;
 }
+
+#tanglepic {
+    transition: 1s;
+}
+
+#tanglepic:hover {
+    opacity: 0;
+}
